@@ -1,0 +1,23 @@
+header {
+  background: lightblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #2b2b2b;
+}
+
+header button {
+  background: #588684;
+}
+
+header button:hover {
+  background: red;
+}
+
+.contact button {
+  background: #588684;
+}
+/*# sourceMappingURL=style.css.map */
