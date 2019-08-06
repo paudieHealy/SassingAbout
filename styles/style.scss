@@ -1,7 +1,18 @@
-@import './header';
-@import './variables';
+@import "./variables";
+@import "./header";
 
-.contact button {
-    background: $primaryBtn;
+
+.contact {
+    @include flexCenter(row, rgb(71, 44, 48));
 }
 
+// We can also use the extend, this is done if we want to use the same features from the 
+// header on to the contact div secion.
+// to use it we add #extend header, this will inherit all from the header, if we want to change the background
+// color, we can add it to the function below to override the header backgorund.
+// We can also use = - / * for width of a div, example below.
+// .contact {
+//   @extend header;
+//   background: green;
+//   width: 100% - 80%;
+// }
